@@ -1,0 +1,3 @@
+rtmpdump -vr '<stream url here>' -o -
+rtmpdump -vr '<stream url here>' -o - >> stream.flv
+
