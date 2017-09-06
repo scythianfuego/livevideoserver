@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="12.317cm" height="15.835cm" viewBox="1.410 1.170 13.728 17.005"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="3.610" y="4.083" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="4.083" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="4.469"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
++Audio header</text>
+<line x1="1.610" y1="3.482" x2="1.610" y2="16.810" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="1.610,16.960 1.510,16.760 1.610,16.810 1.710,16.760 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="1.610,16.960 1.510,16.760 1.610,16.810 1.710,16.760 "/>
+<text x="3.810" y="2.882"  fill="#000000" text-anchor="start" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Stream Frames</text>
+<text x="7.410" y="2.882"  fill="#000000" text-anchor="start" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Restreaming Server</text>
+<text x="12.910" y="2.882"  fill="#000000" text-anchor="start" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Client</text>
+<text x="1.410" y="2.882"  fill="#000000" text-anchor="start" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Time</text>
+<rect x="3.610" y="3.482" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="3.482" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="3.869"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Video header</text>
+<rect x="3.610" y="5.283" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="5.283" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="5.669"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Audio frame</text>
+<rect x="3.610" y="4.683" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="4.683" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="5.069"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<rect x="3.610" y="5.882" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="5.882" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="6.269"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="7.083" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="7.083" width="3.000" height="0.600" fill="none" stroke="#FFFFFF" stroke-width="0.001" />
+<text x="5.110" y="7.469"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<rect x="3.610" y="6.482" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="6.482" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="6.869"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="7.683" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="7.683" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="8.069"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="8.882" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="8.882" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="9.269"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Audio frame</text>
+<rect x="3.610" y="8.282" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="8.282" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="8.669"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<rect x="3.610" y="9.482" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="9.482" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="9.869"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="10.682" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="10.682" width="3.000" height="0.600" fill="none" stroke="#FFFFFF" stroke-width="0.001" />
+<text x="5.110" y="11.069"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<rect x="3.610" y="10.082" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="10.082" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="10.469"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="11.282" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="11.282" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="11.669"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="12.482" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="12.482" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="12.869"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+Audio frame</text>
+<rect x="3.610" y="11.882" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="11.882" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="12.269"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<rect x="3.610" y="13.082" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="13.082" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="13.469"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="14.283" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="14.283" width="3.000" height="0.600" fill="none" stroke="#FFFFFF" stroke-width="0.001" />
+<text x="5.110" y="14.683"  fill="#000000" text-anchor="middle" font-size="0.42" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<rect x="3.610" y="13.683" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="13.683" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="14.069"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<rect x="3.610" y="14.883" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="14.883" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="15.269"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<line x1="1.810" y1="4.682" x2="6.610" y2="4.682" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<line x1="1.810" y1="8.282" x2="7.010" y2="8.282" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<line x1="1.810" y1="11.882" x2="7.010" y2="11.882" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<line x1="1.810" y1="15.482" x2="7.010" y2="15.482" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<rect x="3.610" y="16.083" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="16.083" width="3.000" height="0.600" fill="none" stroke="#FFFFFF" stroke-width="0.001" />
+<text x="5.110" y="16.469"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<line x1="2.010" y1="8.110" x2="2.010" y2="4.855" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="2.010,8.260 1.910,8.060 2.010,8.110 2.110,8.060 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="2.010,8.260 1.910,8.060 2.010,8.110 2.110,8.060 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="2.010,4.705 2.110,4.905 2.010,4.855 1.910,4.905 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="2.010,4.705 2.110,4.905 2.010,4.855 1.910,4.905 "/>
+<text x="2.010" y="6.482"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+Keyframe </text>
+<text x="2.010" y="6.765"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+Interval</text>
+<text x="2.010" y="7.047"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+(2 sec)</text>
+<rect x="8.210" y="3.482" width="0.400" height="13.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="8.210" y="3.482" width="0.400" height="13.200" fill="none" stroke="#000000" stroke-width="0.020" />
+<rect x="13.210" y="5.482" width="0.400" height="8.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="13.210" y="5.482" width="0.400" height="8.200" fill="none" stroke="#000000" stroke-width="0.020" />
+<line x1="8.610" y1="8.882" x2="13.038" y2="8.882" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,8.882 12.988,8.982 13.038,8.882 12.988,8.782 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,8.882 12.988,8.982 13.038,8.882 12.988,8.782 "/>
+<line x1="8.610" y1="5.982" x2="13.038" y2="5.982" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,5.982 12.988,6.082 13.038,5.982 12.988,5.883 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,5.982 12.988,6.082 13.038,5.982 12.988,5.883 "/>
+<line x1="8.610" y1="6.482" x2="13.038" y2="6.482" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,6.482 12.988,6.582 13.038,6.482 12.988,6.383 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,6.482 12.988,6.582 13.038,6.482 12.988,6.383 "/>
+<line x1="8.610" y1="9.482" x2="13.038" y2="9.579" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,9.582 12.986,9.678 13.038,9.579 12.990,9.478 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,9.582 12.986,9.678 13.038,9.579 12.990,9.478 "/>
+<line x1="8.610" y1="10.082" x2="13.038" y2="10.082" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,10.082 12.988,10.182 13.038,10.082 12.988,9.982 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,10.082 12.988,10.182 13.038,10.082 12.988,9.982 "/>
+<line x1="8.610" y1="10.682" x2="13.038" y2="10.682" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,10.682 12.988,10.782 13.038,10.682 12.988,10.582 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,10.682 12.988,10.782 13.038,10.682 12.988,10.582 "/>
+<line x1="8.610" y1="11.882" x2="13.038" y2="11.882" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,11.882 12.988,11.982 13.038,11.882 12.988,11.782 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,11.882 12.988,11.982 13.038,11.882 12.988,11.782 "/>
+<line x1="8.610" y1="12.482" x2="13.038" y2="12.482" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,12.482 12.988,12.582 13.038,12.482 12.988,12.382 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,12.482 12.988,12.582 13.038,12.482 12.988,12.382 "/>
+<line x1="8.610" y1="13.082" x2="13.038" y2="13.082" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="13.188,13.082 12.988,13.182 13.038,13.082 12.988,12.982 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="13.188,13.082 12.988,13.182 13.038,13.082 12.988,12.982 "/>
+<line x1="13.210" y1="13.682" x2="8.782" y2="13.682" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="8.632,13.682 8.832,13.582 8.782,13.682 8.832,13.782 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="8.632,13.682 8.832,13.582 8.782,13.682 8.832,13.782 "/>
+<line x1="13.210" y1="5.482" x2="8.782" y2="5.482" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="8.632,5.482 8.832,5.383 8.782,5.482 8.832,5.582 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="8.632,5.482 8.832,5.383 8.782,5.482 8.832,5.582 "/>
+<text x="10.210" y="5.382"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+connect</text>
+<text x="10.210" y="6.382"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+audio header</text>
+<text x="10.210" y="5.882"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+video header</text>
+<text x="10.210" y="8.782"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<text x="9.010" y="6.983"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+Server waits for next I frame</text>
+<text x="10.210" y="9.382"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+Audio frame</text>
+<text x="10.210" y="9.982"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<text x="10.210" y="10.582"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<text x="10.210" y="11.782"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+P frame</text>
+<text x="10.210" y="11.182"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<text x="10.210" y="12.382"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<text x="10.210" y="12.982"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+Audio frame</text>
+<text x="10.210" y="13.582"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+disconnect</text>
+<text x="5.210" y="1.482"  fill="#000000" text-anchor="start" font-size="0.42" font-family="sans" font-style="normal" font-weight="400">
+h264 Restreaming</text>
+<rect x="3.610" y="15.483" width="3.000" height="0.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.610" y="15.483" width="3.000" height="0.600" fill="none" stroke="#000000" stroke-width="0.020" />
+<text x="5.110" y="15.869"  fill="#000000" text-anchor="middle" font-size="0.35" font-family="sans" font-style="normal" font-weight="400">
+I frame</text>
+<text x="10.210" y="7.483"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<line x1="8.410" y1="3.083" x2="8.410" y2="3.482" stroke="#000000" stroke-width="0.020" />
+<line x1="13.410" y1="3.083" x2="13.410" y2="5.482" stroke="#000000" stroke-width="0.020" />
+<line x1="13.410" y1="13.682" x2="13.410" y2="16.983" stroke="#000000" stroke-width="0.020" />
+<line x1="8.410" y1="16.682" x2="8.410" y2="16.982" stroke="#000000" stroke-width="0.020" />
+<line x1="1.810" y1="3.482" x2="7.010" y2="3.482" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<line x1="2.010" y1="4.510" x2="2.010" y2="3.655" stroke="#000000" stroke-width="0.020" />
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="2.010,4.660 1.910,4.460 2.010,4.510 2.110,4.460 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="2.010,4.660 1.910,4.460 2.010,4.510 2.110,4.460 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.020" points="2.010,3.505 2.110,3.705 2.010,3.655 1.910,3.705 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.020"  points="2.010,3.505 2.110,3.705 2.010,3.655 1.910,3.705 "/>
+<text x="2.010" y="4.082"  fill="#000000" text-anchor="start" font-size="0.28" font-family="sans" font-style="normal" font-weight="400">
+time diff = 0</text>
+<line x1="6.610" y1="4.083" x2="8.181" y2="5.948" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.020"  points="7.990,5.877 8.196,5.965 8.143,5.748 "/>
+<line x1="6.610" y1="4.682" x2="8.180" y2="6.449" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.020"  points="7.988,6.383 8.195,6.466 8.137,6.250 "/>
+<line x1="6.610" y1="8.882" x2="8.165" y2="8.882" stroke="#000000" stroke-width="0.020" stroke-dasharray="0.10,0.10"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.020"  points="7.988,8.982 8.188,8.882 7.988,8.782 "/>
+</svg>
