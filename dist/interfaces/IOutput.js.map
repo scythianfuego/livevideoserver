@@ -1,0 +1,1 @@
+{"version":3,"file":"IOutput.js","sourceRoot":"","sources":["../../src/server/interfaces/IOutput.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOutput {\n\n}"]}

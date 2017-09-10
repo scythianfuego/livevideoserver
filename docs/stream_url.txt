@@ -1,3 +1,4 @@
 rtmpdump -vr '<stream url here>' -o -
 rtmpdump -vr '<stream url here>' -o - >> stream.flv
 
+./ffmpeg -re -stream_loop -1 -i stream.flv -f flv pipe:1 < /dev/null

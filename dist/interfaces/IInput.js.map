@@ -1,0 +1,1 @@
+{"version":3,"file":"IInput.js","sourceRoot":"","sources":["../../src/server/interfaces/IInput.ts"],"names":[],"mappings":"","sourcesContent":["export interface IInput {\n\n}"]}

@@ -5,17 +5,22 @@
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node src/server/index.js"
+    "lint": "tslint -c tslint.json --fix 'src/**/*.ts'",
+    "start": "ts-node src/server/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^8.0.28",
+    "@types/uws": "^0.13.0",
     "flv.js": "^1.3.2",
     "html-webpack-plugin": "^2.29.0",
     "nanotimer": "^0.3.14",
-    "smart-buffer": "^4.0.0-beta.1",
     "uws": "^8.14.0",
     "webpack": "^3.4.1"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "devDependencies": {
+    "tslint-config-prettier": "^1.5.0"
+  }
 }

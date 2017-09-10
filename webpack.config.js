@@ -5,18 +5,17 @@ const webpack = require('webpack');
 // plugins
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = (env) => {
-
+module.exports = env => {
   return {
-    context: resolve('src'),
+    context: resolve('src/client'),
     entry: {
-      app: './main.js'
+      app: './index.js'
     },
     output: {
       filename: '[name].[hash].js',
       path: resolve('dist'),
       // Include comments with information about the modules.
-      pathinfo: true,
+      pathinfo: true
     },
 
     devtool: 'cheap-module-source-map',
@@ -24,16 +23,13 @@ module.exports = (env) => {
     module: {
       loaders: [
         // { test: /\.tsx?$/, loaders: [ 'awesome-typescript-loader' ], exclude: /node_modules/ }
-      ],
+      ]
     },
 
     plugins: [
-
       new HtmlWebpackPlugin({
-        template: resolve('src','index.html')
+        template: resolve('src/client', 'index.html')
       })
-
     ]
-
-  }
+  };
 };

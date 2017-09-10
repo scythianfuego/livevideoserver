@@ -1,0 +1,1 @@
+{"version":3,"file":"messages.js","sourceRoot":"","sources":["../../src/server/interfaces/messages.ts"],"names":[],"mappings":";;AAAa,QAAA,QAAQ,GAAG;IACtB,eAAe,EAAE,iBAAiB;IAClC,aAAa,EAAE,eAAe;CAC/B,CAAA","sourcesContent":["export const Messages = {\n  FLV_INPUT_CHUNK: 'FLV_INPUT_CHUNK',\n  FLV_OUT_CHUNK: 'FLV_OUT_CHUNK',\n}\n"]}
