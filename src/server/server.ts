@@ -1,7 +1,9 @@
-import { spawn } from "child_process";
 import * as fs from "fs";
 import * as WebSocket from "uws";
+import { LoopInput } from "./input/loop";
+// import { RTMPInput } from "./input/rtmp";
 import { IVideoTag } from "./interfaces/IVideoTag";
+import { Messages } from "./interfaces/messages";
 import { FLV, FLVDecoder } from "./transform/flvdecoder";
 
 export class Server {
@@ -10,39 +12,16 @@ export class Server {
   private decoder: FLVDecoder;
 
   constructor() {
-    const configJson = fs.readFileSync(__dirname + "/../../config.json");
+    const configJson = fs.readFileSync(process.cwd() + "/config.json");
     const config = JSON.parse(configJson.toString());
     this.streamUrl = config.source;
     this.decoder = new FLVDecoder(() => {
       this.startSocketServer();
     });
 
-    this.startRTMP();
-  }
-
-  public startRTMP() {
-    let chunkId = 0;
-    const timeStart = new Date().getTime();
-
-    const rtmpdump = spawn("rtmpdump", ["-vr", this.streamUrl, "-o", "-"]);
-
-    rtmpdump.stdout.on("data", (data: Buffer) => {
+    const inp = new LoopInput(this.streamUrl);
+    inp.on(Messages.FLV_INPUT_CHUNK, data => {
       this.parseStream(data);
-      const time = (new Date().getTime() - timeStart) / 1000;
-      console.log(`[${time}] RTMP got chunk ${chunkId}`);
-      chunkId++;
-    });
-
-    rtmpdump.stdout.on("error", error => {
-      console.log(error);
-    });
-
-    rtmpdump.stderr.on("data", data => {
-      console.log(`stderr: ${data}`);
-    });
-
-    rtmpdump.on("close", code => {
-      console.log(`child process exited with code ${code}`);
     });
   }
 
@@ -81,7 +60,7 @@ export class Server {
   }
 
   public parseStream(data: Buffer) {
-    // console.log('last:' + lastdata.length + ' new:' + data.length)
+    console.log("last:" + this.lastdata.length + " new:" + data.length);
 
     data = Buffer.concat([this.lastdata, data]);
     const bytesLeft = this.decoder.parseChunks(data);

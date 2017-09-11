@@ -5,8 +5,9 @@
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint -c tslint.json --fix 'src/**/*.ts'",
-    "start": "ts-node src/server/index.ts"
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lintfix": "tslint -c tslint.json --fix 'src/**/*.ts'",
+    "start": "ts-node --no-cache src/server/index.ts"
   },
   "author": "",
   "license": "ISC",

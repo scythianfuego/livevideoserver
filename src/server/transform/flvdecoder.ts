@@ -106,9 +106,10 @@ export class FLVDecoder extends EventEmitter {
   public readTag(data: SmartBuffer) {
     const storedOffset = data.readOffset;
     if (data.length < data.readOffset + FLVTagHeaderSize) {
-      console.log("cant read tag");
+      console.log("cant read tag: " + data.length + " " + data.readOffset + " " + FLVTagHeaderSize);
       return null;
     }
+    console.log("tag reader");
 
     const tagHeaderStart = data.readOffset;
     data.readOffset += 4; // PreviousTagSize0
@@ -125,7 +126,7 @@ export class FLVDecoder extends EventEmitter {
 
     if (data.length < tagStart + tagSize) {
       data.readOffset = storedOffset; // rewind
-      // console.log('cant read whole tag: size ' + (tagSize + FLVTagHeaderSize));
+      console.log("cant read whole tag: size " + (tagSize + FLVTagHeaderSize));
       return null;
     }
 
@@ -174,13 +175,14 @@ export class FLVDecoder extends EventEmitter {
         // avc
         tag.avcPayloadType = data.readUInt8();
       } else {
+        console.log(tagData);
         throw new Error(`Unsupported video codec: ${codecID}`);
       }
     } else {
       console.log("Unknown FLV tag");
     }
 
-    // this.logTag(tag);
+    this.logTag(tag);
     this.saveTag(tag);
     data.readOffset = tagStart + tagSize;
     // console.log(`Tag T:${tag.type} start:${tagStart} size:${tagSize} end:${data.readOffset} dlen:${data.length}`)
